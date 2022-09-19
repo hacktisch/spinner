@@ -1,0 +1,21 @@
+.spinner {
+    position: relative;
+    -webkit-clip-path: url(#cilinder);
+    clip-path: url(#cilinder);
+    width: min-content;
+}
+
+.spinner-shadow {
+    position: absolute;
+    background: linear-gradient(#4b4b4bb0, #d9f7ff80 7%, #f0ffff45 22%, #ffffff00 55%, #000000eb);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cilinder-svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
